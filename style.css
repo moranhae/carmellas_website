@@ -1,0 +1,277 @@
+
+/*Things that appear on every page */
+#mainHeader {
+    text-align: center;
+    font-size: 40px;
+}
+#subHeader {
+    text-align: center;
+    font-size: 20px; 
+}
+#logoLine /*Container for Logo*/ {
+    text-align: center; /*Not sure if works */
+}
+
+/*Navigation Menu CSS *************************************************************/
+#navContainer {
+    text-align: center;  
+}
+a :hover {
+    text-decoration: none;
+}
+a :link {
+    text-decoration: none;
+}
+#navNAV {
+    font-size: 30px; 
+    text-align: center; 
+    text-decoration: none; 
+    margin: 5px, 10px, 0px, 10px;
+    color: #fff;
+}
+#navNAV :hover {
+    text-decoration: none; 
+}
+#homeButton { /*Home Button */
+    font-size: 40px; 
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin-right: 20px;
+    color: #000;
+    text-decoration: none;
+}
+#homeButton :visited {
+    color:#000;
+}
+#homeButton :hover { 
+    color: #8b2635;
+}
+
+#menuButton { /*Menu Button */
+    font-size: 40px; 
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 10px; 
+    color: #000;
+    text-decoration: none;
+}
+#menuButton :visited {color: #000;}
+#menuButton :hover {color: #8b2635;}
+
+#specialsButton { /*Specials Button */
+    font-size: 40px; 
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 30px; 
+    color: #000;
+}
+#specialsButton :visited {color: #000;}
+#specialsButton :hover {color: #8b2635;}
+
+#cateringButton { /*Catering Button */
+    font-size: 40px; 
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 30px; 
+    color: #000;
+}
+#cateringButton :visited {color: #000;}
+#cateringButton :hover {color: #8b2635;}
+
+#contactButton { /*Contact Button */
+    font-size: 40px; 
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin-right: 30px; 
+    margin-left: 30px; 
+    color: #000;
+}
+#contactButton :visited {color: #000;}
+#contactButton :hover {color: #8b2635;}
+
+#hoursButton {
+    font-size: 40px; 
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+}
+#hoursButton :visited {color: #000;}
+#hoursButton :hover {color: #8b2635;}
+/* CSS for index.html */
+/*CSS for box structure on index.html for showcase & specials **************************/
+#leftContainer {
+    width: 60%;
+    height: 375px;
+    background-color: #000;
+    float: left;
+}
+#leftShowcase {
+    text-align: center;
+}
+#rightContainer {
+    width: 40%; 
+    height: 375px; 
+    background-color: #ccc;
+    float: right; 
+}
+#rightSpecials {
+    text-align: center;
+}
+#pizzaContainer {
+    width: 33%; 
+    float: left; 
+    height: 200px; 
+}
+#drinksContainer {
+    width: 33%; 
+    float: left; 
+    height: 200px; 
+}
+#entertainmentContainer {
+    width: 33%; 
+    float: left; 
+    height: 200px; 
+}
+/*CSS for "quote" section on index.html*/
+#quote {
+    text-align: center;
+    padding: 40px,0px, 20px, 0px; 
+    margin: 5px; 
+}
+#quoteAuthor {
+    text-align: center;
+    padding: 20px, 0px, 40px, 0px;  
+    margin: 5px; 
+}
+/* CSS for "Food, Drinks, Entertainment header on index.html */
+#foodHeader {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px; 
+    text-transform: uppercase; 
+}
+#drinksHeader {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px; 
+    text-transform: uppercase;
+}
+#entertainmentHeader {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px; 
+    text-transform: uppercase;
+}
+/* CSS on index.html for "Did you know?" section */
+#DYKheader {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px; 
+    text-align: center; 
+}
+#rangeServices {
+    text-align: center; 
+    font-size: 25px; 
+}
+/* CSS for menu.html ******************************************************************/
+#menuPNGcontainer {
+    text-align: center; 
+}
+/*CSS for specials.html ****************************************************************/
+#mondaySpecials {
+    width: 100%;
+     
+}
+#tuesdaySpecials {
+    width: 100%;
+    
+}
+#wednesdaySpecials {
+    width: 100%; 
+ 
+}
+#thursdaySpecials {
+    width: 100%; 
+    
+}
+#fridaySpecials {
+    width: 100%; 
+    
+}
+#saturdaySpecials {
+    width: 100%; 
+}
+#sundaySpecials {
+    width: 100%;  
+}
+/*CSS for hours.html *******************************************************************/
+#hoursHeader {
+    text-align: center; 
+    font-size: 30px; 
+}
+/* Montford Location*/
+#montfordHours  /* Container for Montford */{ 
+    width: 33%;  
+    float: left; 
+}
+#montfordHeader {
+    text-align: center; 
+}
+#montfordCrossStreets {
+    text-align: center;
+}
+#montfordAddress {
+    text-align:center; 
+}
+#montfordAddress2 {
+    text-align: center;
+}
+#montfordPhone {
+    text-align: center; 
+}
+/*Steele Creek/South Tryon Location */
+#southtryonHours /*Container for S.Tryon/Steele Creek*/{
+    width: 33%; 
+    float: left; 
+    background-color: #ccc; 
+}
+#southtryonHeader {
+    text-align: center;
+}
+#southtryonCrossStreets {
+    text-align: center;
+}
+#southtryonAddress {
+    text-align: center;
+}
+#southtryonAddress2 {
+    text-align: center; 
+}
+#southtryonPhone {
+    text-align: center; 
+}
+/*Fort Mill Location*/
+#fortmillHours /*Container for Fort Mill */ {
+    width: 33%; 
+    float: left;   
+}
+#fortmillHeader {
+    text-align: center;
+}
+#fortmillCrossStreets {
+    text-align: center;
+}
+#fortmillAddress {
+    text-align: center;
+}
+#fortmillAddress2 {
+    text-align: center; 
+}
+#fortmillPhone {
+    text-align: center; 
+}
